@@ -1,0 +1,85 @@
+{
+	"redBet": {
+		"amount": 3
+	},
+	"splitBets": [{
+		"amount": 1,
+		"numbers": [1, 2]
+	}, {
+		"amount": 2,
+		"numbers": [1, 2]
+	}]
+}
+
+// result
+{
+    "winningNumber": 24,
+    "bets": {
+        "blackBet": null,
+        "redBet": {
+            "amount": 0
+        },
+        "oddBet": null,
+        "evenBet": null,
+        "dozen1Bet": null,
+        "dozen2Bet": null,
+        "dozen3Bet": null,
+        "column1Bet": null,
+        "column2Bet": null,
+        "column3Bet": null,
+        "half1Bet": null,
+        "half2Bet": null,
+        "straightBets": null,
+        "splitBets": [
+            {
+                "amount": 0,
+                "numbers": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "amount": 0,
+                "numbers": [
+                    1,
+                    2
+                ]
+            }
+        ],
+        "streetBets": null,
+        "cornerBets": null
+    },
+    "statistics": {
+        "coldNumbers": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "hotNumbers": [
+            19,
+            35,
+            7,
+            24,
+            15
+        ],
+        "history": [
+            15,
+            7,
+            35,
+            19,
+            24
+        ],
+        "blackRedZeros": {
+            "RED": 40,
+            "ZERO": 0,
+            "BLACK": 60
+        },
+        "firstSecondThirdDozens": {
+            "THIRD": 20,
+            "SECOND": 60,
+            "FIRST": 20
+        }
+    }
+}
